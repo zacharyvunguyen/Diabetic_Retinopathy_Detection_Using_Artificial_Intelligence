@@ -33,9 +33,19 @@ Using Artificial Intelligence to detect Diabetic retinopathy - the leading cause
 
 ![](images/Task1-1.png)
 
-
-
 ### Task #2: Import Libraries and Datasets
+####  Libraries:
+- **pandas**:  dataframe manipulation
+- **numpy**: numeric analysis
+- **matplotlib, seaborn, plotly**: data visualization
+- **sklearn**: split, shuffle data
+- **tensorflow**: build, train, deploy AI  model
+- **keras**: one of the leading high-level neural networks APIs.
+#### Datasets:
+- There are 3662 sample images in the dataset belong to 5 different labels of Diabetic retinopathy.
+- train & label are the 2 list of data containing the name of each file and the label of each file accordingly 
+
+![](images/Task3-1.png)
 
 ### Task #3: Perform Data Exploration and Visualization
 
