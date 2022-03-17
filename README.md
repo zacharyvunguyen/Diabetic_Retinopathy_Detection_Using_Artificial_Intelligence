@@ -1,7 +1,7 @@
 # Diabetic Retinopathy Detection Using Artificial Intelligence
 Using Artificial Intelligence to detect Diabetic retinopathy - the leading cause of blindness in the working-age population of the developed world. It is estimated to affect over 93 million people.
  
-![](images/Diabetic Retinopathy 2.png)
+![](images/Diabetic Retinopathy.png)
 
 ## Objectives:
 
@@ -15,6 +15,25 @@ Using Artificial Intelligence to detect Diabetic retinopathy - the leading cause
 ## Structure:
 
 ### Task #1: Understand the Problem Statement and Business Case
+#### Business Case:
+- Diabetic Retinopathy is a disease that results from complications of type 1 & 2 diabetes and affects patient eyes.
+- The disease can develop if blood sugar levels are left uncontrolled for a prolonged period of time,
+- It is caused by the damage of blood vessels in the retina which is located in the back of patient's eyes (retina is light sensitive tissue in the eye).
+- Diabetic Retinopathy is the leading cause of blindness in the working-age population of the developed world.
+- The World Health Organization estimates that 347 million people have the disease worldwide.
+- With the power of Artificial Intelligence and Deep Learning, doctors will be able to detect blindness before it occurs. Aravind Eye Hospital in India hopes to detect and prevent diabetic Retinopathy among people mostly living in rural areas where medical screening and experienced doctors are limited.
+
+|    NO DR | MILD | MODERATE | SEVERE | PROLIFERATE    |
+|-----|-----|-----|-----|-----|
+|  ![](train/No_DR/0a4e1a29ffff.png)   |  ![](train/Mild/0a61bddab956.png)   | ![](train/Moderate/0a9ec1e99ce4.png)    |  ![](train/Severe/0c917c372572.png)   |  ![](train/Proliferate_DR/0ada12c0e78f.png)   |
+
+#### Inputs and Outputs
+- The dataset consists of 3553 color images belongs to 5 categoriess
+- Categories that are present in the data are No_DR, Mild, Moderate, Severe and Proliferative (radpily growing)
+
+![](images/Task1-1.png)
+
+
 
 ### Task #2: Import Libraries and Datasets
 
