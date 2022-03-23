@@ -116,6 +116,10 @@ Convolutional Neural network compiles different layers before making a predictio
 * All these layers extract essential information from the images. At last, the features map is feed to a primary fully
   connected layer with a SoftMax function to make a prediction.
 
+![](images/Task5-2.png)
+
+![](images/Task5-3.png)
+
 ### Task #6: Build a ResNet Deep Neural Network Model
 
 ### Task #7: Compile and Train the Deep Neural Network Model
